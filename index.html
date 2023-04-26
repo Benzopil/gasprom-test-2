@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Разинкин Сергей | Тестовое задание</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+</head>
+
+<body>
+    <div class="stock">
+        <div class="table">
+            <div class="table__desig --y">Востребованность</div>
+            <div class="table__desig --x">Стадии жизненного цикла</div>
+            <div class="table__vert">
+                <div class="table__info">
+                    <div class="table__info-elem --plus">Спрос +</div>
+                    <div class="table__info-elem --plus">Экономика +</div>
+                </div>
+                <div class="table__info">
+                    <div class="table__info-elem --plus">Спрос +</div>
+                    <div class="table__info-elem --minus">Экономика -</div>
+                </div>
+                <div class="table__info">
+                    <div class="table__info-elem --minus">Спрос -</div>
+                    <div class="table__info-elem --plus">Экономика +</div>
+                </div>
+                <div class="table__info">
+                    <div class="table__info-elem --minus">Спрос -</div>
+                    <div class="table__info-elem --minus">Экономика -</div>
+                </div>
+            </div>
+            <div class="table__t">
+                <div class="table__desig --volume">Млрд.м<sup>3</sup></div>
+                <div class="table__row">
+                    <div class="table__cell  --average" data-category="category-1">
+                        <div class="table__cell-changes">+57</div>
+                        <div class="table__cell-value" data-value="302">302</div>
+                        <div class="table__cell-descr">Среднее</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --above-average" data-category="category-2">
+                        <div class="table__cell-changes">+33</div>
+                        <div class="table__cell-value" data-value="289">289</div>
+                        <div class="table__cell-descr">Выше среднего</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --high" data-category="category-3">
+                        <div class="table__cell-changes">+43</div>
+                        <div class="table__cell-value" data-value="356">356</div>
+                        <div class="table__cell-descr">Высокое</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --high" data-category="category-4">
+                        <div class="table__cell-changes">-20</div>
+                        <div class="table__cell-value" data-value="402">402</div>
+                        <div class="table__cell-descr">Высокое</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                </div>
+                <div class="table__row">
+                    <div class="table__cell --average" data-category="category-5">
+                        <div class="table__cell-changes">+37</div>
+                        <div class="table__cell-value" data-value="176">176</div>
+                        <div class="table__cell-descr">Среднее</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --average" data-category="category-6">
+                        <div class="table__cell-changes">+34</div>
+                        <div class="table__cell-value" data-value="230">230</div>
+                        <div class="table__cell-descr">Среднее</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --average" data-category="category-7">
+                        <div class="table__cell-changes">+27</div>
+                        <div class="table__cell-value" data-value="190">190</div>
+                        <div class="table__cell-descr">Среднее</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --above-average" data-category="category-8">
+                        <div class="table__cell-changes">+90</div>
+                        <div class="table__cell-value" data-value="269">269</div>
+                        <div class="table__cell-descr">Выше среднего</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                </div>
+                <div class="table__row">
+                    <div class="table__cell --low" data-category="category-9">
+                        <div class="table__cell-changes">-50</div>
+                        <div class="table__cell-value" data-value="55">55</div>
+                        <div class="table__cell-descr">Низкое</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --below-average" data-category="category-10">
+                        <div class="table__cell-changes">+25</div>
+                        <div class="table__cell-value" data-value="98">98</div>
+                        <div class="table__cell-descr">Ниже среднего</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --below-average" data-category="category-11">
+                        <div class="table__cell-changes">+50</div>
+                        <div class="table__cell-value" data-value="120">120</div>
+                        <div class="table__cell-descr">Ниже среднего</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --average" data-category="category-12">
+                        <div class="table__cell-changes">+17</div>
+                        <div class="table__cell-value" data-value="159">159</div>
+                        <div class="table__cell-descr">Среднее</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                </div>
+                <div class="table__row">
+                    <div class="table__cell --low" data-category="category-13">
+                        <div class="table__cell-changes">-50</div>
+                        <div class="table__cell-value" data-value="58">58</div>
+                        <div class="table__cell-descr">Низкое</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --low" data-category="category-14">
+                        <div class="table__cell-changes">-34</div>
+                        <div class="table__cell-value" data-value="89">89</div>
+                        <div class="table__cell-descr">Низкое</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --low" data-category="category-15">
+                        <div class="table__cell-changes">+17</div>
+                        <div class="table__cell-value" data-value="120">120</div>
+                        <div class="table__cell-descr">Низкое</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                    <div class="table__cell --below-average" data-category="category-16">
+                        <div class="table__cell-changes">-107</div>
+                        <div class="table__cell-value" data-value="90">90</div>
+                        <div class="table__cell-descr">Ниже среднего</div>
+                        <div class="table__cell-g"><span></span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="table__hor">
+                <div class="table__info">
+                    <div class="table__info-elem">Поиск</div>
+                </div>
+                <div class="table__info">
+                    <div class="table__info-elem">Разведка</div>
+                </div>
+                <div class="table__info">
+                    <div class="table__info-elem">Инвестиции</div>
+                </div>
+                <div class="table__info">
+                    <div class="table__info-elem">Добыча</div>
+                </div>
+            </div>
+            <div class="projects">
+                <div class="projects__item" data-category="category-1">Проект 1</div>
+                <div class="projects__item" data-category="category-2">Проект 2</div>
+                <div class="projects__item" data-category="category-3">Проект 3</div>
+                <div class="projects__item" data-category="category-4">Проект 4</div>
+                <div class="projects__item" data-category="category-5">Проект 5</div>
+                <div class="projects__item" data-category="category-6">Проект 6</div>
+                <div class="projects__item" data-category="category-7">Проект 7</div>
+                <div class="projects__item" data-category="category-8">Проект 8</div>
+                <div class="projects__item" data-category="category-9">Проект 9</div>
+                <div class="projects__item" data-category="category-10">Проект 10</div>
+                <div class="projects__item" data-category="category-11">Проект 11</div>
+                <div class="projects__item" data-category="category-12">Проект 12</div>
+                <div class="projects__item" data-category="category-13">Проект 13</div>
+                <div class="projects__item" data-category="category-14">Проект 14</div>
+                <div class="projects__item" data-category="category-15">Проект 15</div>
+                <div class="projects__item" data-category="category-16">Проект 16</div>
+                <div class="projects__item" data-category="category-1">Проект 17</div>
+                <div class="projects__item" data-category="category-2">Проект 18</div>
+                <div class="projects__item" data-category="category-3">Проект 19</div>
+                <div class="projects__item" data-category="category-4">Проект 20</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/scripts.js"></script>
+
+</html>
