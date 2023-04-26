@@ -175,12 +175,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 3.5rem;
 }
 .table__hor .table__info {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   text-align: center;
+}
+.table__hor .table__info:not(:last-child) {
+  margin-right: 1rem;
 }
 .table__vert .table__info {
   height: 17rem;
@@ -197,6 +201,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.table__vert .table__info:not(:last-child) {
+  margin-bottom: 1rem;
 }
 .table__vert .table__info-elem {
   display: table;
